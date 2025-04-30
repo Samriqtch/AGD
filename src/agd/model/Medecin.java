@@ -12,7 +12,7 @@ package agd.model;
 import java.util.ArrayList;
 import java.util.List;
 public class Medecin {
-        private String nom;
+    private String nom;
     private String spécialité;
     private List<RendezVous> rendezVousList = new ArrayList<>();
 
