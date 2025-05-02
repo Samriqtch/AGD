@@ -1,8 +1,47 @@
-APPLICATION DE GESTION DE RENDEZ-VOUS DANS UN CABINET MEDICALE 
+# 🏥 Application de Gestion de Rendez-vous Médicaux  
 
-Problématique 
-L'objectif est de développer une application destinée à un cabinet médical pour gérer les rendez-vous des patients, les disponibilités des médecins, et les spécialités. 
-L’interface Swing doit proposer un calendrier interactif avec prise de rendez-vous, visualisation des plages horaires, et annulation. 
+Ce projet est une application Java permettant la gestion des **rendez-vous médicaux** dans un **cabinet médical**. Elle offre aux utilisateurs un **calendrier interactif**, la gestion des disponibilités des médecins, et des fonctionnalités d’annulation de rendez-vous.  
 
-Contrainte : 
-gestion de plusieurs classes (Patient, Médecin, RDV), exceptions pour conflits d’horaires ou données invalides, héritage pour les différentes spécialités médicales.
+Développée avec **Swing**, elle intègre une gestion avancée des classes et des exceptions pour garantir la cohérence des données.  
+
+## 🚀 Fonctionnalités  
+
+- 📅 **Prise de rendez-vous **  
+- ⏳ **Gestion des plages horaires des médecins**  
+- ❌ **Annulation des rendez-vous**  
+- 🏥 **Gestion des spécialités médicales** avec héritage  
+- ⚠ **Exceptions pour conflits d’horaires et données invalides**  
+
+## 🛠️ Technologies utilisées  
+
+- **Java SE** – Développement de l’application  
+- **Swing** – Interface utilisateur graphique  
+- **NetBeans** – IDE utilisé pour le projet  
+- **JCalendar** – Gestion du calendrier  
+- **JGoodies** – Amélioration de l'interface graphique  
+- **JUnit** – Tests unitaires  
+
+## 📂 Structure du projet  
+
+```
+/AGD  
+│── src/agd/              
+│── src/agd/exception/    
+│── src/agd/model/         
+│── src/agd/ui/           
+│── lib/                  
+│── README.md              
+│── AGD.java              
+```
+
+## 🔧 Installation et exécution  
+
+1. **Clone le projet** :  
+   ```bash
+   git clone https://github.com/Samriqtch/AGD.git
+   ```
+2. **Ouvre le projet avec NetBeans**  
+3. **Ajoute les dépendances** (JCalendar, JGoodies)  
+4. **Compile et exécute ` dans le sous dossier src/agd fichier AGD.java`**  
+
+
